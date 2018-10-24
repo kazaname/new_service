@@ -14,6 +14,8 @@ import os
 import hashlib
 import uuid
 
+from ctypes import CDLL
+
 from configurations import Configuration
 
 
@@ -33,6 +35,7 @@ def get_secret_key(base_dir='.'):
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 class Production(Configuration):
     # Quick-start development settings - unsuitable for production
@@ -56,6 +59,9 @@ class Production(Configuration):
         'django.contrib.sessions',
         'django.contrib.messages',
         'django.contrib.staticfiles',
+
+        'collector_of_attractions',
+        'mapwidgets',
 
     ]
 
@@ -93,12 +99,14 @@ class Production(Configuration):
     # Database
     # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+    # GDAL_LIBRARY_PATH = 'C:\\OSGeo4W64\\bin\\gdal202.dll'
+
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
             'NAME': 'mapappDB',
             'USER': 'postgres',
-            'PASSWORD': 'zaq123wsx',
+            'PASSWORD': 'zaq123edc',
             'HOST': '127.0.0.1',
             'PORT': '5432',
         }
