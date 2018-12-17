@@ -16,6 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from collector_of_attractions.views import attraction_createview
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^create/$', attraction_createview)
 ]

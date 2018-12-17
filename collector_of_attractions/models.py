@@ -4,6 +4,7 @@ from django.db.models.signals import pre_save
 
 from .utils import unique_slug_generator
 
+
 CATEGORY = (
     ('Muzeum', 'Muzeum'),
     ('Kościół', 'Kościół'),
@@ -12,7 +13,8 @@ CATEGORY = (
     ('Galeria Sztuki', 'Galeria Sztuki'),
     ('Obraz', 'Obraz'),
 )
-# Create your models here.
+
+
 class Attraction(models.Model):
     owner               = models.ForeignKey(settings.AUTH_USER_MODEL)
     name                = models.CharField(max_length=100)
@@ -30,6 +32,7 @@ class Attraction(models.Model):
     def title(self):
         return self.name
 
+
 class AttractionAddress(models.Model):
     attraction  = models.OneToOneField(Attraction, on_delete=models.CASCADE)
     country     = models.CharField(max_length=100)
@@ -41,6 +44,7 @@ class AttractionAddress(models.Model):
 
     def __str__(self):
         return self.attraction.name + ' ' + self.country + ' ' + self.city
+
 
 class AttractionImages(models.Model):
     attraction  = models.ForeignKey(Attraction, on_delete=models.CASCADE)
