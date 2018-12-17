@@ -61,7 +61,7 @@ class Production(Configuration):
         'django.contrib.staticfiles',
 
         'collector_of_attractions',
-        'mapwidgets',
+        # 'mapwidgets',
 
     ]
 
