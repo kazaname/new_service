@@ -1,0 +1,15 @@
+.navbar-fixed-left {
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    heigh: 100%;
+}
+
+.navbar-fixed-left + .container {
+    padding-left: 160px;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+    margin-top: -50px;
+    margin-left: 140px;
+}

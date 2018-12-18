@@ -16,7 +16,9 @@ def unique_slug_generator(instance, new_slug = None):
 
     if slug in DONT_USE:
         new_slug = "{slug}-{randstr}".format(slug=slug, randstr=random_string_generator(size=4))
+
         return unique_slug_generator(instance, new_slug=new_slug)
+
 
     Klass = instance.__class__
     qs_exists = Klass.objects.filter(slug=slug).exists()

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block head_title %}Attractions || {{block.super}}{% endblock head_title %}
+{% block head_content %}
+
+{% endblock head_content %}
+
+{% block content %}
+
+
+{% include "collector_of_attractions/snippets/category_bar.html" %}
+
+<h1>Attractions list</h1>
+<ul>
+    {% for obj in object_list %}
+    <h5><a href="/attractions/{{obj.category|lower}}/{{obj.slug}}">{{ obj.name }} </a><small> {{ obj.category }}</small></h5>
+    {% endfor %}
+
+</ul>
+
+{% endblock %}

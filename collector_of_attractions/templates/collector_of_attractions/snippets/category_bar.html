@@ -1,0 +1,10 @@
+<div class="navbar navbar-inverse navbar-fixed-left">
+    <ul class="nav navbar-nav">
+        <li><a href='{% url "attractions:create" %}' >Add new</a> </li>
+        <li><a href='{% url "attractions:category_list" "monument" %}' >Monuments</a> </li>
+        <li><a href='{% url "attractions:category_list" "painting" %}'>Paintings</a> </li>
+        <li><a href='{% url "attractions:category_list" "church"%}'>Churchs</a> </li>
+        <li><a href='{% url "attractions:category_list" "sculpture"%}'>Sculptures</a> </li>
+        <li><a href='{% url "attractions:category_list" "museum"%}'>Museums</a> </li>
+    </ul>
+</div>
