@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from collector_of_attractions.models import Attraction, AttractionAddress, AttractionImages, AttractionStatus
+from .models import Attraction, AttractionAddress, AttractionImages, AttractionStatus
 
 
 class AttractionStatusTabularInLine(admin.TabularInline):
@@ -17,10 +17,9 @@ class AttractionAddressTabularInLine(admin.TabularInline):
 
 class AttractionAdmin(admin.ModelAdmin):
     inlines = [AttractionAddressTabularInLine, AttractionStatusTabularInLine, AttractionImagesTabularInLine]
+    list_display = ['name', 'owner', 'category', 'author', 'slug', 'timestamp', 'upload']
     class Meta:
         model = Attraction
 
 
 admin.site.register(Attraction, AttractionAdmin)
-
-

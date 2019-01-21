@@ -1,8 +1,10 @@
 <div class="container">
-    <h1>MapApp.com</h1>
+    <h3><a class="" href="{% url 'home' %}"> MapApp.com</a></h3>
 <div class="navbar navbar-inverse navbar-fixed-left">
     <a class="navbar-brand" href="{% url 'home' %}">Home</a>
     <a class="navbar-brand" href="{% url 'attractions:attractions_list' %}">Attractions</a>
+    <a class="navbar-brand" href="{% url 'newsletter:signup' %}">Newsletter</a>
+    <a class="navbar-brand" href="{% url 'newsletter:contact' %}">Contact</a>
 </div>
 
 </div>

@@ -1,0 +1,198 @@
+1545941002337	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.X0xwZrEucoB7"
+1545941003319	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545941003319	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:23021): Gtk-WARNING **: 21:03:23.754: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23021): Gtk-WARNING **: 21:03:23.754: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545941007414	Marionette	INFO	Listening on port 37655
+1545941007484	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545941330516	Marionette	INFO	Stopped listening on port 37655
+1545941340625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qvgn5Mm0kOpE"
+1545941341162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545941341162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:24028): Gtk-WARNING **: 21:09:01.448: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24028): Gtk-WARNING **: 21:09:01.449: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545941344371	Marionette	INFO	Listening on port 45053
+1545941344478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545941397753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BEgdoFkrgmyb"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by anonymus.)
+1545941573507	Marionette	INFO	Stopped listening on port 45053
+1545942040497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cyTKQhCjKajG"
+1545942041044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545942041044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:24973): Gtk-WARNING **: 21:20:41.427: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24973): Gtk-WARNING **: 21:20:41.427: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545942044808	Marionette	INFO	Listening on port 44819
+1545942044863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545942120022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4OXk4WgwlYrp"
+1545942120665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545942120665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:25728): Gtk-WARNING **: 21:22:01.010: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:25728): Gtk-WARNING **: 21:22:01.010: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545942124906	Marionette	INFO	Listening on port 33537
+1545942124970	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1545942152302	Marionette	INFO	Stopped listening on port 33537
+1545942155830	Marionette	INFO	Stopped listening on port 44819
+1545942211703	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7UD700dYE2ba"
+1545942212376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545942212376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:26583): Gtk-WARNING **: 21:23:32.800: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:26583): Gtk-WARNING **: 21:23:32.800: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545942215961	Marionette	INFO	Listening on port 39111
+1545942216061	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:424:11\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:429:38\ngetGrids@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/layout.js:429:38\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1198:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1313:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:66:5\n"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1545942271216	Marionette	INFO	Stopped listening on port 39111
+1545942329733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.00CS0ijQoLC8"
+1545942330340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545942330340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:27389): Gtk-WARNING **: 21:25:30.599: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27389): Gtk-WARNING **: 21:25:30.599: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545942333578	Marionette	INFO	Listening on port 39977
+1545942333624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545942348199	Marionette	INFO	Stopped listening on port 39977
+1545942353735	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KHLOxglY9okj"
+1545942354267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545942354267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:28155): Gtk-WARNING **: 21:25:54.564: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:28155): Gtk-WARNING **: 21:25:54.564: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545942357606	Marionette	INFO	Listening on port 46677
+1545942357710	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545942382096	Marionette	INFO	Stopped listening on port 46677
+1545942397963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.o6Y1tiVvaMZF"
+1545942398540	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545942398541	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:28949): Gtk-WARNING **: 21:26:38.857: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:28949): Gtk-WARNING **: 21:26:38.857: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545942402011	Marionette	INFO	Listening on port 38559
+1545942402119	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1545943440687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5soR5rrfQA8N"
+1545943441257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545943441257	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:29887): Gtk-WARNING **: 21:44:01.522: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:29887): Gtk-WARNING **: 21:44:01.522: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545943444740	Marionette	INFO	Listening on port 45585
+1545943444853	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545943450121	Marionette	INFO	Stopped listening on port 45585
+1545943474979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lc4kQc8Zp3oB"
+1545943475509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1545943475512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+
+(firefox:30650): Gtk-WARNING **: 21:44:35.809: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:30650): Gtk-WARNING **: 21:44:35.809: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1545943478964	Marionette	INFO	Listening on port 36641
+1545943479062	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545943484260	Marionette	INFO	Stopped listening on port 36641
+1546023396489	Marionette	INFO	Stopped listening on port 38559

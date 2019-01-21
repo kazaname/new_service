@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block head_title %}Add Attractions || {{block.super}}{% endblock head_title %}
+{% block head_content %}
+
+{% endblock head_content %}
+
+{% block content %}
+
+{% include "attractions/snippets/category_bar.html" %}
+
+<h2>Add Attractions</h2>
+
+{% if form.errors.not_field_errors %}
+    {{form.errors}}
+{% endif %}
+
+
+<form method="POST" > {% csrf_token %}
+    <h3>Attraction basic information</h3>
+    {% for field in attraction_form %}
+        <p><b>{{field.name }}</b> {{ field }}</p>
+    {% endfor %}
+    <br/>
+    <h3>Attraction Addres</h3>
+    {% for field in addres_form %}
+        <p><b>{{field.name }}</b> {{ field }}</p>
+    {% endfor %}
+
+
+    <button type="submit">Save</button>
+
+</form>
+
+
+{% endblock %}

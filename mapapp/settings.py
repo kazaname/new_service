@@ -60,7 +60,8 @@ class Production(Configuration):
         'django.contrib.messages',
         'django.contrib.staticfiles',
 
-        'collector_of_attractions',
+        'attractions',
+        'newsletter',
         # 'mapwidgets',
 
     ]

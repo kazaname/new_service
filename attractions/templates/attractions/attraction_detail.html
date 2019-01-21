@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block head_title %}Attractions || {{block.super}}{% endblock head_title %}
+{% block head_content %}
+
+{% endblock head_content %}
+
+{% block content %}
+
+    {% include "attractions/snippets/category_bar.html" %}
+
+    <h3>{{ object.name }} <small>{{ object.category }}</small></h3>
+
+    <p>{{ object.short_description }}</p>
+    <p>{{ object.timestamp }}{% if object.updated %}, Updated {{ object.updated|timesince }} ago{% endif %}</p>
+
+    <p>{{ object.attractionstatus.is_dublicated }}</p>
+
+{% endblock %}
